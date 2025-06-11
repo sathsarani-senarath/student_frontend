@@ -1,10 +1,5 @@
 "use client";
-import {
-  createContext,
-  useContext,
-  useState,
-  useEffect
-} from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
 import BASE_URL from "@/API/config";
 import { useRouter } from "next/navigation";
@@ -98,4 +93,4 @@ export const useAuth = () => {
   return context;
 };
 
-export default AuthContext;
+export default AuthContext;
